@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon modulos/consola.js"
+    "serve": "nodemon modulos/http.js"
   },
   "author": "djaramilloj",
   "license": "MIT",
   "dependencies": {
+    "node-gyp": "^7.0.0",
     "nodemon": "^2.0.4"
   }
 }
