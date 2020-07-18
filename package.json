@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon modulos/process.js"
+    "serve": "nodemon memoria/stream.js"
   },
   "author": "djaramilloj",
   "license": "MIT",
   "dependencies": {
+    "is-odd": "^3.0.1",
     "node-gyp": "^7.0.0",
     "nodemon": "^2.0.4"
   }
